@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container{ 
+        border: 3px solid turquoise;
+        background-color: bisque;
+        margin:10px;
+        padding:10px;
+        display: flex;
+        width: 40%;
+      }
+      #boxleft{
+        background-color: blue;
+        border: 2px solid yellowgreen;
+        width:45%;
+        margin:8px;
+        padding:8px;
+        display: flex; 
+      }
+      #boxleft{
+        background-color:khaki;
+        border: 2px solid maroon;
+        width:45%;
+      }
+      p{
+        border:1px solid violet;
+      }
+      img{
+        height:150px;
+        width:200px;
+      }
+      @media (max-width:640px) {
+        .container{
+          background-color: aliceblue;
+          flex-direction: column-reverse;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div id="boxleft">
+   <p>text1</p>
+   <p>text2</p>
+    </div>
+    <div id="boxright">
+    <img src="/html project/krishna8.jpeg" alt="karmokar">
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,17 @@
+#img1{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+#img2{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+p{
+    font-style: italic;
+    border:1px solid red;
+    overflow: scroll;
+    height: 1000px;
+    
+}

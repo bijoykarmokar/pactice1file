@@ -1,0 +1,25 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    height: 80px;
+    width: 180px;
+    margin:50px auto;
+   text-align: center;
+   font-weight: 900;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVtyTAkCnP9ds_MegNHBkDrnbMMWqAq3BhwU1e5vAmg5tgHMoT8GdHESOmCZvojnoCuBI&usqp=CAU);
+   background-size:cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color:transparent
+}
+.container{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    background: linear-gradient( red,green,yellow,gray,blue);
+    background: radial-gradient(yellow,red,green);
+}

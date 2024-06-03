@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    font-size: 15px;
+    color:#eeeeee;
+    margin: 100px;
+    transition: all ease-in 0.3s;
+}
+button:hover{
+  box-shadow: 5px 5px 0px rgb(12, 72, 115);  
+}

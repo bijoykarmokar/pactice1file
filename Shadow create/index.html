@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-content:blueviolet;
+            --custom-width:30%;
+        }
+        .container{
+            background-color: bisque;
+            height: 830px;
+            width: 1330px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aquamarine;
+            border: 3px solid var(--primary-content);
+             width:var(--custom-width); 
+            margin: 5px;
+            padding:5px;
+            /* box-shadow: 40px 30px green; */
+            /* box-shadow: 30px 10px 20px violet; */
+            /* box-shadow: -10px 20px salmon; */
+            /* box-shadow:  inset -20px 20px 10px teal; */
+            /* box-shadow: 20px 30px grey, 40px 50px  hotpink; */
+        }
+        .box img{
+            height: 100px;
+            width: 100px;
+        }
+        #head1{
+            /* text-shadow: 20px 30px red; */
+            /* text-shadow: 10px 15px 20px green; */
+            /* text-shadow: blue 10px 15px; */
+            text-shadow: 15px 20px 30px yellow;
+        }
+         #head2 {
+            /* text-shadow: 20px 30px red; */
+            /* text-shadow: 10px 15px 20px green; */
+            /* text-shadow: blue 10px 15px; */
+            text-shadow: 15px 20px brown;
+        }
+        #head3{
+            /* text-shadow: 20px 30px red; */
+            /* text-shadow: 10px 15px 20px green; */
+            /* text-shadow: blue 10px 15px; */
+            text-shadow: 5px 10px tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <img src="/html project/images.jpeg" id="head2" alt="Bijoy karmokar">
+        <h2 id="head1">My name is Bijoy karmokar</h2>
+        <p id="head3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus pariatur, quaerat non consequuntur atque, quae enim iste porro libero doloremque nostrum iure ea molestias quisquam eos labore voluptate. Voluptatibus reprehenderit et rerum rem labore voluptate, laudantium ut provident tempora quaerat magni accusamus modi corporis consequatur iure quis eos doloremque molestias.</p>
+        </div>
+    </div>
+</body>
+</html>
