@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background:linear-gradient(red,green,blue,yellow,pink) ;
+    padding:3px;
+   
+}
+.container img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 5px solid pink ; */
+}
